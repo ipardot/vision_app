@@ -119,7 +119,7 @@ h1 a, h2 a, h3 a{ display:none !important; }
 st.markdown("""
 <span class="chef-tag">🥕 Tu cocina, con IA</span>
 <div class="chef-title">Chef de <span>Nevera</span></div>
-<div class="chef-sub">Abre la nevera, toma una foto y descubre qué puedes cocinar hoy con lo que ya tienes.</div>
+<div class="chef-sub">Abre la nevera, toma una foto y mira la lista de alimentos de lo que ya tienes, para facilitar las compras en el super.</div>
 """, unsafe_allow_html=True)
 
 # Imagen de portada
