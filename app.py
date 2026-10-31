@@ -112,6 +112,13 @@ header[data-testid="stHeader"]{ background: transparent; }
 }
 [data-testid="stMarkdownContainer"] strong{ color:var(--roble-oscuro); }
 h1 a, h2 a, h3 a{ display:none !important; }
+/* Botones y avisos: conservan los colores originales de Streamlit (contraste) */
+button [data-testid="stMarkdownContainer"],
+button [data-testid="stMarkdownContainer"] *,
+[data-testid="stAlert"] [data-testid="stMarkdownContainer"] *{
+  color:inherit !important;
+  font-family:inherit !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
